@@ -46,20 +46,18 @@ section {
   z-index: 100;
 }
 
-.header .logo {
+.logo {
   display: flex;
   align-items: center;
-}
-
-.header img {
-  width: 2vw;
-}
-
-.logo {
   font-size: 2.5rem;
   color: var(--text-color);
   font-weight: 600;
   cursor: default;
+}
+
+.header img {
+  width: 3.3rem;
+  margin-right: 0.5rem;
 }
 
 .navbar a {

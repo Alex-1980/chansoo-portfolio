@@ -30,7 +30,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 10rem 9% 2rem;
+  padding: 10rem 9% 5rem;
 }
 
 .header {
@@ -126,7 +126,7 @@ span {
 }
 
 .home-content p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .social-media a {
@@ -194,8 +194,107 @@ span {
 }
 
 .about-content p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: 2rem 0 3rem;
+}
+
+.skills h2 {
+  margin-bottom: 5rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.skills-img {
+  width: 80%;
+  padding-left: 9rem;
+  object-position: center;
+}
+
+.skills-img img {
+  width: 35vw;
+}
+
+.bars-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.bars-box h3,.percent {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.light-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  background: hsla(260, 100%, 44%, 0.4);
+  border-radius: 0.3rem;
+}
+
+.percent-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1rem;
+  background-color: var(--main-color);
+  border-radius: 0.3rem;
+}
+
+.html-bar {
+  width: 85%;
+}
+.css-bar {
+  width: 80%;
+}
+.js-bar {
+  width: 80%;
+}
+.react-bar {
+  width: 80%;
+}
+.node-bar {
+  width: 70%;
+}
+.express-bar {
+  width: 70%;
+}
+.ejs-bar {
+  width: 80%;
+}
+.jquery-bar {
+  width: 70%;
+}
+.ajax-bar {
+  width: 70%;
+}
+.postgresql-bar {
+  width: 70%;
+}
+.ruby-bar {
+  width: 70%;
+}
+.git-bar {
+  width: 70%;
+}
+.wp-bar {
+  width: 70%;
+}
+.adobe-bar {
+  width: 70%;
 }
 
 .services h2 {
